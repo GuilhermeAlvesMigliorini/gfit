@@ -1,0 +1,11 @@
+.container{
+  width: 100vw;
+  height: 80vh;
+  background: linear-gradient(45deg, #1f63a8 9%, #aa137d 87%);
+  position: absolute;
+}
+
+.container_image{
+  width: 40rem;
+  margin: 2rem auto auto 5rem;
+}
