@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
 .banner{
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
   background-image: url('../assets/images/fundo.png');
   background-size: cover;
@@ -21,18 +25,24 @@
 .banner_textbox{
   width: 80rem;
   margin: 10rem 20rem auto 5rem;
-  background-color: rgba(0, 0, 0, .2);
+  /*background-color: rgba(0, 0, 0, .5);*/
 }
 
 .banner_textbox_title{
   text-align: center;
   font-size: 5rem;
   letter-spacing: .2rem;
-  line-height: .3;
+  line-height: 1;
+  color:  white;
+  border-bottom: .2rem solid #eee;
+  margin: 0 10rem;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .banner_textbox_text{
   margin: 0 5rem 5rem 5rem;
   font-size: 2.5rem;
   text-align: center;
+  color: #eee;
+  font-family: 'Quicksand', sans-serif;
 }

@@ -1,7 +1,7 @@
 import styles from '../styles/Banner.module.css'
 import Image from 'next/image'
 import logoImage from '../assets/images/logo_gfit.png'
-import fundoImage from '../assets/images/fundo.png'
+
 
 function Banner() {
   return (
