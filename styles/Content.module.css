@@ -14,11 +14,15 @@
 
 .content_text{
   font-family: 'Quicksand' sans-serif;
+  color: white;
+  text-align: center;
 }
 
 .content_text_h2{
-  text-align: center;
   font-size: 3rem;
+  background: linear-gradient(45deg, #fb116a,#e08f38);
+  color: transparent;
+  background-clip: text;
 }
 
 .content_text_p{
