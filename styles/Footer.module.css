@@ -1,3 +1,13 @@
-.footer_image{
+
+
+.footer{
+  position: relative;
+  background-image: url('../assets/images/footer_1.png');
   max-width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
 }
+

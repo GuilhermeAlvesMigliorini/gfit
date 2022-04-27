@@ -11,11 +11,6 @@
   flex-direction: row;
 }
 
-.banner_fundo_image{
-  width: 100vw;
-  position: relative;
-}
-
 .banner_logo_image{
   width: 40rem;
   margin: 10rem auto auto 5rem;
@@ -24,25 +19,20 @@
 
 .banner_textbox{
   width: 80rem;
-  margin: 10rem 20rem auto 5rem;
-  /*background-color: rgba(0, 0, 0, .5);*/
-}
-
-.banner_textbox_title{
-  text-align: center;
-  font-size: 5rem;
-  letter-spacing: .2rem;
-  line-height: 1;
-  color:  white;
-  border-bottom: .2rem solid #eee;
-  margin: 0 10rem;
-  font-family: 'Quicksand', sans-serif;
+  margin: 20rem 0rem auto 40rem;
 }
 
 .banner_textbox_text{
   margin: 0 5rem 5rem 5rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
   color: #eee;
   font-family: 'Quicksand', sans-serif;
+}
+
+.banner_textbox_hr{
+  margin: -4rem 32rem 0 32rem;
+  height: .3rem;
+  color: white;
+  background-color: white;
 }

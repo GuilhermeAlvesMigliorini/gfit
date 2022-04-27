@@ -3,6 +3,7 @@ import styles from '../styles/Content.module.css'
 
 import Image from 'next/image'
 import contentImage_1 from '../assets/images/content_1.jpg'
+import contentImage_2 from '../assets/images/content_2.png'
 
 
 function Content() {
@@ -24,7 +25,7 @@ function Content() {
         </div>
 
         <div className={styles.content_image}>
-          <Image src={contentImage_1}/>
+          <Image src={contentImage_2}/>
         </div>
 
         <div className={styles.content_text}>

@@ -15,10 +15,9 @@ function Banner() {
       </div>
 
       <div className={styles.banner_textbox}>
-        <h1 className={styles.banner_textbox_title}>Info</h1>
-        <p className={styles.banner_textbox_text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Placeat voluptatibus dolores autem veritatis voluptatum impedit, blanditiis quo dignissimos earum
-         at quas iure facere sunt laboriosam ab nisi amet aliquid ipsum!.</p>
+        
+        <p className={styles.banner_textbox_text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <hr className={styles.banner_textbox_hr} />
       </div>
     </div>
   )
