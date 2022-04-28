@@ -16,15 +16,20 @@
 }
 
 .banner_logo_image{
-  width: 40rem;
-  margin: 10rem auto auto 5rem;
+  position: absolute;
+  width: 30vw;
+  left: 5vw;
+  top: 15vh;
   position: absolute;
   z-index: 100;
 }
 
 .banner_textbox{
-  width: 80rem;
-  margin: 30rem 0rem auto 50rem;
+  position: absolute;
+  width: 50vw;
+  right: 10vw;
+  top: 40vh;
+  text-align: center;
   z-index: 100;
 }
 
@@ -37,8 +42,26 @@
 }
 
 .banner_textbox_hr{
-  margin: -4rem 32rem 0 32rem;
+  margin: -4rem 20vw 0 20vw;
   height: .3rem;
   color: white;
   background-color: white;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+  .banner{
+    display: none;
+  }
+  .banner_image{
+    display: none;
+  }
+
+  .banner_logo_image{
+    display: none;
+  }
+
+  .banner_textbox{
+    display: none;
+  }
 }

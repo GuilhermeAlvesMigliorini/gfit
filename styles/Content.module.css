@@ -45,3 +45,59 @@
   max-height: 80vh;
   overflow: hidden;
 }
+
+.item_text1{
+  grid-area: text1;
+}
+.item_text2{
+  grid-area: text2;
+}
+.item_image1{
+  grid-area: image1;
+}
+.item_image2{
+  grid-area: image2;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+  .container{
+    margin: 5rem auto;
+  }
+
+  .content_grid{
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+    row-gap: 2rem;
+    grid-template-areas: 
+    'image1'
+    'text1'
+    'image2'  
+    'text2';
+  }
+
+  .content_text{
+    width: 80vw;
+  }
+
+  .content_text_h2{
+    font-size: 1.5rem;
+  }
+
+  .content_text_p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .content_link{
+    font-size: 1rem;
+  }
+
+  .content_image{
+    width: 80vw;
+    height: 50vh;
+    margin-top: 2rem;
+  }
+}
