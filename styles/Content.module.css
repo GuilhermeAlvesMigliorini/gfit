@@ -13,7 +13,7 @@
   row-gap: 10vh;
   grid-template-areas: 
   'text1 image1'
-  'text2 image2';
+  'image2 text2';
 }
 
 .content_text{

@@ -11,7 +11,8 @@
 .banner_image{
   position: absolute;
   display: block;
-  width: 100vw;
+  width: 130vw;
+  height: 100vh;
   z-index: 1;
 }
 
