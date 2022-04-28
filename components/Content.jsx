@@ -12,12 +12,13 @@ function Content() {
       <div className={styles.content_grid}>
 
         <div className={styles.content_text}>
-          <h2 className={styles.content_text_h2}>Lorem ipsum</h2>
+          <h2 className={styles.content_text_h2}>Nossos Produtos</h2>
           <p className= {styles.content_text_p}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
-            sint enim nisi, unde ipsum dolorum animi nam nemo sit perferendis
-            vel accusamus hic optio voluptas fugiat, nostrum dolore illum soluta.
+          Buscamos sempre o melhor, com diversidade, qualidade e preço justo para lhe oferecer.
+          Nossa loja conta com peças avulsas, como legging, top, cropped, short e etc,
+          assim como lindos conjuntos. Conheça o nosso catálogo completo.
           </p>
+          <a className={styles.content_link} href="">lojalink.com</a>
         </div>
         
         <div className={styles.content_image}>
@@ -29,12 +30,13 @@ function Content() {
         </div>
 
         <div className={styles.content_text}>
-          <h2 className={styles.content_text_h2}>Lorem ipsum</h2>
+          <h2 className={styles.content_text_h2}>Receitas</h2>
           <p className= {styles.content_text_p}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
-            sint enim nisi, unde ipsum dolorum animi nam nemo sit perferendis
-            vel accusamus hic optio voluptas fugiat, nostrum dolore illum soluta.
+          Sabemos que manter uma alimentação saudável faz parte vida Fitness de nossas clientes,
+          então buscamos receitas que te ajudem a deixar a alimentação saudável e gostosa.
+          Confira algumas receitas que compartilhamos aqui.
           </p>
+          <a className={styles.content_link} href="">lojalink.com</a>
         </div>
         
         

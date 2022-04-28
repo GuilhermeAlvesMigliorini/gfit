@@ -1,10 +1,22 @@
 .nav_container{
+  margin-top: 2rem;
   position: absolute;
-  right: 15vw;
-  top: 13rem;
+  height: 3rem;
+  width: 100vw;
+  z-index: 100;
+  /*background-color: rgba(0, 0, 0, .2);*/
+}
+
+.nav_logo_gfit{
+  position: absolute;
+  width: 8rem;
+  left: 10rem;
 }
 
 .nav{
+  margin: .4rem;
+  position:absolute;
+  left: 50vw;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -2,20 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 .container{
-  width: 80vw;
-  margin: 5rem auto;
+  margin: 20vh auto;
 }
-
 .content_grid{
+  margin: 0 auto;
+  width: 80vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10rem;
+  column-gap: 5vw;
+  row-gap: 10vh;
 }
 
 .content_text{
+  width: 30vw;
   font-family: 'Quicksand' sans-serif;
   color: white;
   text-align: center;
+  /*background-color: rgba(0, 0, 0, .2); ;*/
 }
 
 .content_text_h2{
@@ -26,9 +29,19 @@
 }
 
 .content_text_p{
+  margin-bottom: 15rem;
   font-size: 2rem;
 }
 
+.content_link{
+  font-size: 2rem;
+  background: linear-gradient(45deg, #fb116a,#e08f38);
+  color: transparent;
+  background-clip: text;
+}
+
 .content_image{
-  width: 40rem;
+  width: 30vw;
+  max-height: 80vh;
+  overflow: hidden;
 }
