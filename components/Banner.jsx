@@ -1,13 +1,12 @@
 import styles from '../styles/Banner.module.css'
 import Image from 'next/image'
 import logoImage from '../assets/images/logo_gfitboneka.png'
-import fundoImage from '../assets/images/fundo.png'
 
 
 function Banner() {
   return (
     <div>
-    <div className={styles.banner_image}><Image src={fundoImage} layout="responsive"/></div>
+    <div className={styles.banner_image}></div>
     <div className={styles.banner}>
       
       <div className={styles.banner_logo_image}><Image src={logoImage}/></div>
