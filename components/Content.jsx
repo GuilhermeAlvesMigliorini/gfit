@@ -23,10 +23,20 @@ function Content() {
         
         <div className={`${styles.content_image} ${styles.content_image1}`}>
           <Image src={contentImage_1}/>
+          <div className={styles.content_image_title_box}>
+            <div className={styles.content_image_title}>PRODUTOS</div>
+          </div>
+          <div className={styles.content_image_ig}>@GFITRS</div>
+          
         </div>
 
         <div className={`${styles.content_image} ${styles.content_image1}`}>
           <Image src={contentImage_2}/>
+          <div className={styles.content_image_title_box}>
+            <div className={styles.content_image_title}>RECEITAS</div>
+          </div>
+          <div className={styles.content_image_ig}>@GFITRS</div>
+          
         </div>
 
         <div className={`${styles.content_text} ${styles.item_text2}`}>
