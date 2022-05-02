@@ -10,8 +10,8 @@
   width: 80vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 5vw;
-  row-gap: 10vh;
+  column-gap: 5rem;
+  row-gap: 10rem;
   grid-template-areas: 
   'text1 image1'
   'image2 text2';
