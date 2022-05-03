@@ -27,10 +27,16 @@
   background-clip: text;
 }
 
+.footer_logo{
+  position: absolute;
+  margin: 26rem auto 0 15rem;
+  width: 15rem;
+}
+
 .footer_copy{
   color: white;
   position: absolute;
-  margin: 35rem auto 0 5rem;
+  margin: 37rem auto 0 5rem;
   font-size: 1.4rem;
   font-weight: lighter;
   text-align: center;

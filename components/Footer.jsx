@@ -1,4 +1,6 @@
 
+import Image from 'next/image'
+import logoImage from '../assets/images/gfit.png'
 import styles from '../styles/Footer.module.css'
 
 
@@ -16,6 +18,7 @@ function Footer() {
         <i className="fa-brands fa-whatsapp"></i>
         </a>
       </div>
+      <div className={styles.footer_logo}><Image src={logoImage}/></div>
       <div className={styles.footer_copy}>©2022 - GFit, Some Rights Reserved.</div>
     </div>
   )
