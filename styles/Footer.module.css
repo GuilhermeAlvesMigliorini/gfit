@@ -8,14 +8,31 @@
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-  
 }
 
+.footer_social{
+  position: absolute;
+  width: 100vw;
+  color: white;
+  margin: 25rem auto 0 auto;
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_social_icon{
+  margin: 0 1rem;
+}
 
 
 @media only screen and (max-width: 767px) {
   .footer{
     height: 10rem;
+  }
+
+  .footer_social{
+    margin-top: 4rem;
+    font-size: 4rem;
   }
 }
 
@@ -23,10 +40,18 @@
   .footer{
     height: 20rem;
   }
+
+  .footer_social{
+    margin-top: 10rem;
+  }
 }
 
   @media only screen and (min-width: 1280px) and (max-width: 1600px){
     .footer{
       height: 30rem;
+    }
+
+    .footer_social{
+      margin-top: 18rem;
     }
   }
