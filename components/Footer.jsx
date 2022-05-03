@@ -15,8 +15,8 @@ function Footer() {
         <a href='https://www.whatsapp.com' className={styles.footer_social_icon} >
         <i className="fa-brands fa-whatsapp"></i>
         </a>
-        
       </div>
+      <div className={styles.footer_copy}>©2022 - GFit, Some Rights Reserved.</div>
     </div>
   )
 }
